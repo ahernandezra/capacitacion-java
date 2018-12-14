@@ -1,0 +1,5 @@
+org\is\services\WsCalc.class
+org\is\calc\CalcScientific.class
+org\is\services\WsCalcBasic.class
+org\is\calc\CalcBasic.class
+org\is\calc\Calc.class

@@ -1,0 +1,13 @@
+
+
+
+<sql-result-set-mapping name="user.rs.getDetail">
+    <constructor-result target-class="org.is.dao.dto.UserDTO">
+        <column name = "USERNAME" />
+        <column name = "NAME" />
+        <column name = "LASTNAME" />
+        <column name = "CREATED" class = "java.util.Date" />
+        <column name = "PASSWD" />
+        <column name = "AGE" class = "java.lang.Integer" />
+    </constructor-result>
+</sql-result-set-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <!--
+     yyyy-MM-ww			: por semana
+     yyyy-MM-dd			: por dia
+     yyyy-MM-dd_HH		: por hora
+     yyyy-MM-dd_HH-mm	: por minuto
+     -->
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss.SSS} | %-5level | %logger{36} - %msg %n</Pattern>
+        </layout>
+    </appender>
+
+    <!--
+        Levels:
+            TRACE, DEBUG, INFO, WARN, ERROR, ALL or OFF
+            Note that the level of the root logger cannot be set to INHERITED or NULL
+     -->
+
+    <!-- <logger level="debug" name="co.is.calc" -->
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+</configuration>
