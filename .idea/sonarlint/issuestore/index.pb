@@ -1,0 +1,21 @@
+
+S
+#src/main/resources/logback-test.xml,2\3\237b01bb372e8b217879824f6a0b91c2b9b05917
+O
+target/classes/logback-test.xml,5\5\55bd04ee91b8deee841d33d2b18271a920aaf475
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+W
+'src/test/java/org/is/CalcBasicTest.java,6\1\619aad3b96c4c96fb887bcc5c52e9f751876e43b
+S
+#src/main/java/org/is/calc/Calc.java,9\1\91f8abcca302820e1f58a50c96ae17c85844af3d
+X
+(src/main/java/org/is/calc/CalcBasic.java,c\d\cd68ad1084e77b8e1cc69e45fdbe14661b745e89
+Y
+)src/main/java/org/is/services/WsCalc.java,1\1\112d695266615c8afd4af760f4c07ccffa4e70c0
+^
+.src/main/java/org/is/services/WsCalcBasic.java,6\a\6a4a46924be28c03b49a28ef809af91f5653b532
+]
+-src/main/java/org/is/calc/CalcScientific.java,5\2\5217f905c16b757fb025501e75b9cfecca311e4b
+b
+2src/test/java/org/is/services/WsCalcBasicTest.java,7\e\7e241b4a3c68efdb61aad22e026582c03407fa07
